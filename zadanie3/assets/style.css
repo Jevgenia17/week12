@@ -1,0 +1,43 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+text-align: center;
+color: rgb(56, 58, 60);
+}
+
+.imt-app__inputs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weight, .height {
+    width: 20%;
+    height: 5vh;
+    text-align: center;
+}
+
+.imt-app__result-btn {
+   background-color: rgb(170, 237, 237); 
+   margin-top: 10px;
+    height: 5vh;
+    cursor: pointer;
+    border: none;  
+}
+
+.imt-text, input, .imt-app__result, .imt-app__result-btn {
+    font-size: 25px;
+    color: rgb(56, 58, 60);
+}
+
+input {
+    background-color: rgb(215, 236, 236);
+    border: none; 
+}
+
+.section-text {
+    font-size: 15px;
+    color: rgb(56, 58, 60);
+}
